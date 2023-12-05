@@ -1,0 +1,14 @@
+# graspos-js:
+#   filter: rjsmin
+#   output: ckanext-graspos/%(version)s-graspos.js
+#   contents:
+#     - js/graspos.js
+#   extra:
+#     preload:
+#       - base/main
+
+# graspos-css:
+#   filter: cssrewrite
+#   output: ckanext-graspos/%(version)s-graspos.css
+#   contents:
+#     - css/graspos.css
